@@ -1,4 +1,4 @@
-import { OptionType } from "./OptionType";
+import { OptionType } from "./OptionType"
 
 type ItemType = {
   title: string,
