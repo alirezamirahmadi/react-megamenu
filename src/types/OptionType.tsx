@@ -1,8 +1,12 @@
 type OptionType = {
   color?: {
-    color?: string,
     backgroundColor?: string,
     borderColor?: string,
+    headTitle?: string,
+    headTitleHover?: string,
+    description?: string,
+    itemTitle?: string,
+    itemTitleHover?: string,
   },
   fullWidth: boolean,
   image?: React.ReactNode,

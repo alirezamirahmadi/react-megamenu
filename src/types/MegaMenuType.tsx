@@ -1,8 +1,8 @@
-import { OptionType } from "./OptionType"
+import { OptionType } from "./optionType";
 
 type ItemType = {
   title: string,
-  href?: string,
+  href: string,
   icon?: React.ReactElement,
 }
 
@@ -21,5 +21,7 @@ type ReactMegaMenuType = {
 }
 
 export type {
-  ReactMegaMenuType
+  ReactMegaMenuType,
+  MenuType,
+  ItemType
 }
