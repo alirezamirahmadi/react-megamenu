@@ -6,9 +6,14 @@
 
 .rmm-menu-head {
   margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-.rmm-menu-head__icon {}
+.rmm-menu-head__icon {
+  width: 25px;
+}
 
 .rmm-menu-head__link {
   align-items: center;
@@ -35,9 +40,14 @@
 
 .rmm-menu-item {
   margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
-.rmm-menu-item__icon {}
+.rmm-menu-item__icon {
+  width: 20px;
+}
 
 .rmm-menu-item__link {
   text-decoration: none;

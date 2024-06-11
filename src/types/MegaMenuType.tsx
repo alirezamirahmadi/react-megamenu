@@ -1,12 +1,14 @@
 import { OptionType } from "./optionType";
 
 type ItemType = {
+  id: string,
   title: string,
   href: string,
   icon?: React.ReactElement,
 }
 
 type MenuType = {
+  id: string,
   title: string,
   href?: string,
   icon?: React.ReactElement,
@@ -16,7 +18,7 @@ type MenuType = {
 
 type ReactMegaMenuType = {
   direction?: 'rtl' | 'ltr' | 'inherit',
-  menuItems: MenuType[],
+  menus: MenuType[],
   options?: OptionType,
 }
 

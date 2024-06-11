@@ -16,7 +16,7 @@ export default function Menu({ menu }: { menu: MenuType }): React.JSX.Element {
         <ul className="rmm-menu-ul">
           {
             menu.items.map((item: ItemType) => (
-              <li key={item.title} className="rmm-menu-item">
+              <li key={item.id} className="rmm-menu-item">
                 {item.icon && <div className="rmm-menu-item__icon">{item.icon}</div>}
                 <a href={item.href} className="rmm-menu-item__link">
                   <span className="rmm-menu-item__title">{item.title}</span>
