@@ -10,7 +10,7 @@ export default function Menu({ menu }: { menu: MenuType }): React.JSX.Element {
 
   return (
     <>
-      <div className="rmm-menu-main" style={{ backgroundColor: mainContext.options?.color?.backgroundColor, borderColor: mainContext.options?.color?.borderColor }}>
+      <div className="rmm-menu-main">
         <div className="rmm-menu-head">
           {menu.icon && <div className="rmm-menu-head__icon" style={{ color: mainContext.options?.color?.headTitle }}>{menu.icon}</div>}
           <a href={menu.href ?? '#'} className="rmm-menu-head__link">
