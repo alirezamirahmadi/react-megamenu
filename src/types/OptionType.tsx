@@ -8,7 +8,7 @@ type OptionType = {
     itemTitle?: string,
     itemTitleHover?: string,
   },
-  fullWidth: boolean,
+  fullWidth?: boolean,
   image?: React.ReactNode,
   CTA?: React.ReactNode,
   responsive?: boolean,

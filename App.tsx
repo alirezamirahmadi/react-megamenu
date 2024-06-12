@@ -55,7 +55,7 @@ function App() {
   return (
     <>
       <h1>React MegaMenu</h1>
-      <ReactMegaMenu menus={menu} />
+      <ReactMegaMenu menus={menu} options={{color:{backgroundColor:"#ccc", headTitle:"#fff", description:"#000", itemTitle:"#ff0000"}}} />
     </>
   )
 }
