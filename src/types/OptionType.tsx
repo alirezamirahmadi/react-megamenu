@@ -9,7 +9,7 @@ type OptionType = {
     itemTitleHover?: string,
   },
   fullWidth?: boolean,
-  image?: React.ReactNode,
+  image?: ImageType,
   CTA?: CTAType,
   responsive?: boolean,
 }
@@ -18,6 +18,13 @@ type CTAType = {
   title?: string,
   description?: string,
   button: React.ReactNode,
+}
+
+type ImageType = {
+  src: string,
+  href?: string,
+  title?: string,
+  button?: React.ReactNode,
 }
 
 export type {

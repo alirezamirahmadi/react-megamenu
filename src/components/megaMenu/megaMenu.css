@@ -29,3 +29,30 @@
   max-width: 200px;
   display: block;
 }
+
+.rmm-megamenu-img {
+  margin: 1rem;
+  max-width: 20%;
+  padding: 2rem;
+  border-radius: 8px;
+  background-color: rgb(107 114 128);
+  background-attachment: local;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  text-decoration: none;
+}
+
+.rmm-megamenu-img:hover {
+  background-blend-mode: soft-light;
+}
+
+.rmm-megamenu-img__title {
+  color: #fff;
+  max-width: 36rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.025em;
+}

@@ -60,6 +60,12 @@ function App() {
         CTA: {
           title: "Our Brands", description: "At Flowbite, we have a portfolio of brands that cater to a variety of preferences.",
           button: <button>Click me!</button>
+        },
+        image:{
+          src:"https://m.media-amazon.com/images/G/31/Amazon-Global-Selling-IN/what_is_international_trade.jpg",
+          href:"#",
+          title:"Preview the new Flowbite dashboard navigation.",
+          button: <button>Click me!</button>
         }
       }} />
     </>
