@@ -10,8 +10,14 @@ type OptionType = {
   },
   fullWidth?: boolean,
   image?: React.ReactNode,
-  CTA?: React.ReactNode,
+  CTA?: CTAType,
   responsive?: boolean,
+}
+
+type CTAType = {
+  title?: string,
+  description?: string,
+  button: React.ReactNode,
 }
 
 export type {

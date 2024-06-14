@@ -55,7 +55,13 @@ function App() {
   return (
     <>
       <h1>React MegaMenu</h1>
-      <ReactMegaMenu menus={menu} options={{color:{backgroundColor:"#ccc", headTitle:"#fff", description:"#000", itemTitle:"#ff0000"}, fullWidth:false}} />
+      <ReactMegaMenu menus={menu} options={{
+        color: { backgroundColor: "#ccc", headTitle: "#fff", description: "#000", itemTitle: "#ff0000" }, fullWidth: false,
+        CTA: {
+          title: "Our Brands", description: "At Flowbite, we have a portfolio of brands that cater to a variety of preferences.",
+          button: <button>Click me!</button>
+        }
+      }} />
     </>
   )
 }

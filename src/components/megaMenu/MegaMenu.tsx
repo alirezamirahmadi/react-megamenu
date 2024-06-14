@@ -19,6 +19,14 @@ export default function MegaMenu({ menus }: { menus: MenuType[] }): React.JSX.El
             </div>
           ))
         }
+        {
+          mainContext.options?.CTA &&
+          <div className="rmm-megamenu-cta">
+            <span className="rmm-megamenu-cta__title">{mainContext.options.CTA.title}</span>
+            <span className="rmm-megamenu-cta__des">{mainContext.options.CTA.description}</span>
+            {mainContext.options.CTA.button}
+          </div>
+        }
       </div>
     </>
   )

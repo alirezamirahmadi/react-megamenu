@@ -1,4 +1,5 @@
 .rmm-megamenu-main {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -9,3 +10,22 @@
 }
 
 .rmm-megamenu-menu {}
+
+.rmm-megamenu-cta {
+  padding: 1rem;
+  padding-bottom: 0px;
+}
+
+.rmm-megamenu-cta__title {
+  margin: 10px 0;
+  font-weight: 700;
+  font-size: var(--font-medium);
+  display: block;
+}
+
+.rmm-megamenu-cta__des {
+  margin-bottom: 8px;
+  font-size: var(--font-xsmall);
+  max-width: 200px;
+  display: block;
+}
