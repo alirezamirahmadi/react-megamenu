@@ -11,7 +11,6 @@ type OptionType = {
   fullWidth?: boolean,
   image?: ImageType,
   CTA?: CTAType,
-  responsive?: boolean,
 }
 
 type CTAType = {

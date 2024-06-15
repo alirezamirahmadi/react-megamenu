@@ -10,7 +10,6 @@ const defaultOptions: OptionType = {
     itemTitleHover: "#2563eb",
   },
   fullWidth: false,
-  responsive: true,
 }
 
 export default defaultOptions;

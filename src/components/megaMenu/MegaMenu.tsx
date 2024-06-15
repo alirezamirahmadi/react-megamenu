@@ -1,4 +1,5 @@
 import { useContext, useState } from "react";
+import { Link} from "react-router-dom";
 
 import Menu from "../menu/Menu";
 import type { MenuType } from "../../types/megaMenuType";
@@ -31,10 +32,10 @@ export default function MegaMenu({ menus }: { menus: MenuType[] }): React.JSX.El
         }
         {
           options?.image &&
-          <a href={options.image.href} className="rmm-megamenu-img" style={{ backgroundImage: `url(${options.image.src})` }}>
+          <Link to={options.image.href ?? "#"} className="rmm-megamenu-img" style={{ backgroundImage: `url(${options.image.src})` }}>
             <p className="rmm-megamenu-img__title">{options.image.title}</p>
             {options.image.button}
-          </a>
+          </Link>
         }
       </div>
     </>
