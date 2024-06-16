@@ -9,7 +9,9 @@
   border-radius: 8px;
 }
 
-.rmm-megamenu-menu {}
+.rmm-megamenu-menu {
+  margin: 0;
+}
 
 .rmm-megamenu-cta {
   padding: 1rem;

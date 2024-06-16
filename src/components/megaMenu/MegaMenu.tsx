@@ -1,10 +1,10 @@
 import { useContext, useState } from "react";
 import { Link} from "react-router-dom";
 
+import "./megaMenu.css";
 import Menu from "../menu/Menu";
 import type { MenuType } from "../../types/megaMenuType";
 import { MainContext } from "../../reactMegaMenu/ReactMegaMenu";
-import "./megaMenu.css";
 import { OptionType } from "../../types/optionType";
 
 export default function MegaMenu({ menus }: { menus: MenuType[] }): React.JSX.Element {
