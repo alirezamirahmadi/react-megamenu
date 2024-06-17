@@ -23,7 +23,7 @@
 
 .rmm-menu-head__title {
   display: block;
-  font-size: var(--font-medium);
+  font-size: var(--font-small);
   color: #2563eb;
 }
 
@@ -55,5 +55,5 @@
 
 .rmm-menu-item__title {
   color: #6b7280;
-  font-size: var(--font-small);
+  font-size: var(--font-xsmall);
 }

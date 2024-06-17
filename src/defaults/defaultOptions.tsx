@@ -7,7 +7,6 @@ const defaultOptions: OptionType = {
     headTitle: "#2563eb",
     description: "#2563eb",
     itemTitle: "#6b7280",
-    itemTitleHover: "#2563eb",
   },
   fullWidth: false,
 }
