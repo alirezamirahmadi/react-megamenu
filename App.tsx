@@ -1,6 +1,6 @@
 import { MenuType } from "./src/types/megaMenuType";
 import ReactMegaMenu from "./src/reactMegaMenu/ReactMegaMenu";
-import IconExample from "./examples/iconExample/IconExample";
+import FullWidthExample from "./examples/fullWidthExample/FullWidthExample";
 function App() {
 
   const menu: MenuType[] = [
@@ -54,10 +54,10 @@ function App() {
 
   return (
     <>
-    <IconExample />
+    <FullWidthExample />
       {/* <h1>React MegaMenu</h1>
       <ReactMegaMenu menus={menu} options={{
-        color: { backgroundColor: "#ccc", headTitle: "#fff", description: "#000", itemTitle: "#ff0000" }, fullWidth: false,
+        color: { backgroundColor: "#ccc", headTitle: "#fff", description: "#000", itemTitle: "#ff0000" }, fullWidth: true,
         CTA: {
           title: "Our Brands", description: "At Flowbite, we have a portfolio of brands that cater to a variety of preferences.",
           button: <button>Click me!</button>
