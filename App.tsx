@@ -1,6 +1,6 @@
 import { MenuType } from "./src/types/megaMenuType";
 import ReactMegaMenu from "./src/reactMegaMenu/ReactMegaMenu";
-import FullWidthExample from "./examples/fullWidthExample/FullWidthExample";
+import CTAExample from "./examples/CTAExample/CTAExample";
 function App() {
 
   const menu: MenuType[] = [
@@ -54,7 +54,7 @@ function App() {
 
   return (
     <>
-    <FullWidthExample />
+    <CTAExample />
       {/* <h1>React MegaMenu</h1>
       <ReactMegaMenu menus={menu} options={{
         color: { backgroundColor: "#ccc", headTitle: "#fff", description: "#000", itemTitle: "#ff0000" }, fullWidth: true,
