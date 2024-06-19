@@ -1,7 +1,8 @@
 import { createContext } from "react";
 
 import MegaMenu from "../components/megaMenu/MegaMenu";
-import type { ReactMegaMenuType } from "../types/megaMenuType";
+import type { ReactMegaMenuType, MenuType, ItemType } from "../types/megaMenuType";
+import { OptionType, CTAType, ImageType } from "../types/optionType";
 import type { ContextType } from "../types/contextType";
 import defaultOptions from "../defaults/defaultOptions";
 import "../styles/main.css";
@@ -25,4 +26,9 @@ export default function ReactMegaMenu({ direction = "ltr", menus, options }: Rea
 
 export {
   MainContext
+}
+
+export type {
+  ReactMegaMenuType, MenuType, ItemType,
+  OptionType, CTAType, ImageType
 }

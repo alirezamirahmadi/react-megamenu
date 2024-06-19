@@ -25,5 +25,7 @@ type ImageType = {
 }
 
 export type {
-  OptionType
+  OptionType,
+  CTAType,
+  ImageType
 }
