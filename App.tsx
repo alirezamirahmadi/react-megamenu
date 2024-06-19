@@ -1,10 +1,14 @@
+import { BrowserRouter } from 'react-router-dom';
+
 import ImageExample from "./examples/imageExample/ImageExample";
 
 function App() {
 
   return (
     <>
-      <ImageExample />
+      <BrowserRouter>
+        <ImageExample />
+      </BrowserRouter>
     </>
   )
 }

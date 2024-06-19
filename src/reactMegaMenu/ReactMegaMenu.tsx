@@ -1,5 +1,4 @@
 import { createContext } from "react";
-import { BrowserRouter } from 'react-router-dom';
 
 import MegaMenu from "../components/megaMenu/MegaMenu";
 import type { ReactMegaMenuType } from "../types/megaMenuType";
@@ -16,11 +15,9 @@ export default function ReactMegaMenu({ direction = "ltr", menus, options }: Rea
   return (
     <>
       <MainContext.Provider value={{ options: { ...defaultOptions, ...options } }}>
-        <BrowserRouter>
-          <div dir={direction}>
-            <MegaMenu menus={menus} />
-          </div>
-        </BrowserRouter>
+        <div dir={direction}>
+          <MegaMenu menus={menus} />
+        </div>
       </MainContext.Provider>
     </>
   )

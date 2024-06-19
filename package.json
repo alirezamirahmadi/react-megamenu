@@ -1,8 +1,32 @@
 {
   "name": "react-megamenu",
-  "private": true,
-  "version": "0.0.0",
+  "private": false,
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "type": "module",
+  "license": "MIT",
+  "author": {
+    "name": "Alireza Mirahmadi"
+  },
+  "keywords": [
+    "react",
+    "mega menu",
+    "menu",
+    "typescript"
+  ],
+  "homepage": "https://github.com/alirezamirahmadi/react-megamenu",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alirezamirahmadi/react-megamenu.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alirezamirahmadi/react-megamenu/issues"
+  },
+  "description":"It's a megamenu component on React. It comes with features like fullwidth, call to action button, image, and responsible for mobile/tablet device.",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
