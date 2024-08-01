@@ -11,7 +11,7 @@
 ![NPM Version](https://img.shields.io/npm/v/react-megamenu)
 
 
-### It's a mega menu component on React. It comes with features like fullwidth, call to action button, and image.
+### It's a mega menu component on React. It comes with features like fullwidth, call to action button, image, and responsible for mobile/tablet device.
 
 
 ## Features:
@@ -19,6 +19,7 @@
 - fullwidth mode
 - CTA button
 - image
+- responsible for mobile/tablet
 
 <br/>
 
