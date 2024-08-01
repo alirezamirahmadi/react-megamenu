@@ -6,12 +6,12 @@
 </p>
 
 
-![NPM Downloads](https://img.shields.io/npm/dw/react-megamenu)
-![npm package minimized gzipped size](https://img.shields.io/bundlejs/size/react-megamenu)
-![NPM Version](https://img.shields.io/npm/v/react-megamenu)
+![NPM Downloads](https://img.shields.io/npm/dw/react-megamenu-responsive)
+![npm package minimized gzipped size](https://img.shields.io/bundlejs/size/react-megamenu-responsive)
+![NPM Version](https://img.shields.io/npm/v/react-megamenu-responsive)
 
 
-### It's a mega menu component on React. It comes with features like fullwidth, call to action button, and image.
+### It's a mega menu component on React. It comes with features like fullwidth, call to action button, image, and responsible for mobile/tablet device.
 
 
 ## Features:
@@ -19,6 +19,7 @@
 - fullwidth mode
 - CTA button
 - image
+- responsible for mobile/tablet
 
 <br/>
 
@@ -44,11 +45,12 @@
 
 ## Usage
 
-#### simple table
+#### simple mega menu
 
 ``` js
-import ReactDataTable from 'react-megamenu';
-import type { Menuype } from 'react-megamenu';
+import { BrowserRouter } from 'react-router-dom';
+import ReactMegaMenu from 'react-megamenu-responsive';
+import type { MenuType } from 'react-megamenu-responsive';
 
 const menu: MenuType[] = [
   {
@@ -85,7 +87,9 @@ const menu: MenuType[] = [
 
 export default function Example() {
   return (
-    <ReactMegaMenu menus={menu} />
+    <BrowserRouter >
+      <ReactMegaMenu menus={menu} />
+    </BrowserRouter>
   )
 }
 ```
