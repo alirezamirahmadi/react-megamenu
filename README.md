@@ -45,11 +45,11 @@
 
 ## Usage
 
-#### simple table
+#### simple mega menu
 
 ``` js
-import ReactDataTable from 'react-megamenu';
-import type { Menuype } from 'react-megamenu';
+import ReactMegaMenu from 'react-megamenu-responsive';
+import type { MenuType } from 'react-megamenu-responsive';
 
 const menu: MenuType[] = [
   {
@@ -86,7 +86,9 @@ const menu: MenuType[] = [
 
 export default function Example() {
   return (
-    <ReactMegaMenu menus={menu} />
+    <BrowserRouter >
+      <ReactMegaMenu menus={menu} />
+    </BrowserRouter>
   )
 }
 ```
