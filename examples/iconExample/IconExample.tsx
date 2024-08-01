@@ -29,7 +29,7 @@ const menu: MenuType[] = [
         </svg>,
       },
     ],
-    description: "my phones are very usefull",
+    description: "my phones are very useful",
   },
   {
     id: "2",
@@ -110,7 +110,7 @@ export default function IconExample(): React.JSX.Element {
             <a href="#">
               Products
               <svg className="example-svg" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
+                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4" />
               </svg>
             </a>
             <div className="example-megamenu">
