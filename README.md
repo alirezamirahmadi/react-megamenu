@@ -13,6 +13,15 @@
 
 ### It's a mega menu component on React. It comes with features like fullwidth, call to action button, image, and responsible for mobile/tablet device.
 
+<br />
+
+![megamenu2](https://github.com/user-attachments/assets/cdb361da-de5e-4fc0-a4d6-e5896ca50964)
+
+<br />
+
+![megamenu1](https://github.com/user-attachments/assets/5fed2d87-df69-420f-8d41-8f1a2c6e363b)
+
+<br />
 
 ## Features:
 
